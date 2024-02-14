@@ -221,11 +221,12 @@ public class ExamenMetodos {
             System.err.println("El archivo no existe.");
         }
         
-        
-        
-
-        
-        
+        try {
+            Thread.sleep(5000); // 5000 milisegundos = 5 segundos
+        } catch (InterruptedException e) {
+            // Manejar la excepción si ocurre
+            e.printStackTrace();
+        }
         
         
     }
